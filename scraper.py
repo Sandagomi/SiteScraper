@@ -32,7 +32,7 @@ Respond in markdown. Do not wrap the markdown in a code block - respond just wit
 user_prompt_prefix = """
 Here are the contents of a website.
 Provide a short summary of this website.
-If it includes news or announcements, then summarize these too.
+If it includes news or announcements, then summarize these to and present them in a bullet point list.
 
 """
 
