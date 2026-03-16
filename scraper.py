@@ -24,7 +24,7 @@ else:
     
 
 system_prompt = """
-You are a helpful assistant that analyzes the contents of a website,
+You are a funny helpful assistant that analyzes the contents of a website,
 and provides a short, snarky, humorous summary, ignoring text that might be navigation related.
 Respond in markdown. Do not wrap the markdown in a code block - respond just with the markdown.
 """
@@ -95,5 +95,5 @@ def display_summary(url):
 
 if __name__ == "__main__":
     # Example usage
-    summary = summarize("https://www.cinnamonhotels.com/cinnamon-life-city-of-dreams-sri-lanka/offers/a-winning-stay?gad_source=1&gad_campaignid=21788354070&gbraid=0AAAAADRZXZnTALVNLkGTz7UknLq9SixMY&gclid=CjwKCAjwjtTNBhB0EiwAuswYhslu2J0943aNvpJ4xbPnr2K4k8LWA-EiN2jhIo2-pSprot0R0Z9VKBoCSWEQAvD_BwE")
+    summary = summarize("https://www.bbc.com/weather")
     print(summary)
